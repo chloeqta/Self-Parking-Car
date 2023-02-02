@@ -69,8 +69,6 @@ const long speed_avg = 75; // ideal driving speed
 // No spot detected: continue driving parallel along the wall
 // Spot detected: turn into parking spot and stop motors before wall collision
  void loop() {
-    /* 
-    */
     digitalWrite(trigPin3, HIGH);
     delayMicroseconds(10);
     digitalWrite(trigPin3, LOW);
