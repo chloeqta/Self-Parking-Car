@@ -19,7 +19,7 @@ long distance1 = 0, distance2, distance3;
 double old_distance1 = 0, old_distance2;
 const int depth = 30; // size of a parking spot
 double delta_speed = 0;
-const long speed_avg = 75; // 
+const long speed_avg = 75; // ideal driving speed
 
  void setup() {
     Serial.begin(9600);
